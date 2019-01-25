@@ -1,0 +1,26 @@
+{
+  "name": "npm-package-in-github",
+  "version": "1.0.0",
+  "description": "Simple package showing how a Node.js package can be referenced in GitHub, instead of a NPM/Node.js registry.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "all": "npm run pack",
+    "pack": "npm pack ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vgribok/npm-package-in-github.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "github"
+  ],
+  "author": "Vlad Hrybok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vgribok/npm-package-in-github/issues"
+  },
+  "homepage": "https://github.com/vgribok/npm-package-in-github#readme"
+}
