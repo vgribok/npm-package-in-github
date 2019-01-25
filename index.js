@@ -4,7 +4,7 @@
 
 function echo(input) {
     console.debug('echo() function is invoked with argument "%s"', input);
-    return output;
+    return input;
 }
 
 function helloWorld() {
