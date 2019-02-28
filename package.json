@@ -1,6 +1,6 @@
 {
   "name": "npm-package-in-github",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple package showing how a Node.js package can be referenced in GitHub, instead of a NPM/Node.js registry.",
   "main": "index.js",
   "scripts": {

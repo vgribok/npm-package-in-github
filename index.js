@@ -3,12 +3,12 @@
 `use strict`;
 
 function echo(input) {
-    console.debug('echo() function is invoked with argument "%s"', input);
+    console.log('echo() function is invoked with argument "%s"', input || "[EMPTY]");
     return input;
 }
 
 function helloWorld() {
-    console.debug('helloWorld() function is invoked');
+    console.log('helloWorld() function is invoked');
     return "Hello, World!";
 }
 
